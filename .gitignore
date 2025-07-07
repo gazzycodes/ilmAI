@@ -29,7 +29,19 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
-# SSH Keys (keep private keys secure)
+# SSH Keys and sensitive deployment files (keep private keys secure)
 ilmai_deploy
+ilmai_deploy.pub
 *.pem
 *.key
+id_rsa*
+id_ed25519*
+
+# Deployment scripts (keep local only)
+*.ps1
+*.bat
+deploy-*.sh
+setup-*.sh
+complete-*.ps1
+resolve-*.ps1
+final-*.ps1
