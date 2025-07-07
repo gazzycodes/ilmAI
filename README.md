@@ -2,6 +2,11 @@
 
 An AI-powered Islamic knowledge assistant that provides authentic answers based on verified Quranic verses and authentic Hadith.
 
+## 🌐 Live Application
+- **Main Domain**: [https://ilmai.live](https://ilmai.live)
+- **WWW Domain**: [https://www.ilmai.live](https://www.ilmai.live)
+- **Status**: ✅ Production Ready with SSL/HTTPS
+
 ## Project Vision
 To create a truth-centered Islamic knowledge assistant that helps users get authentic answers to spiritual, ethical, and modern life questions — strictly based on verified sources while transparently showing references.
 
@@ -10,9 +15,8 @@ To create a truth-centered Islamic knowledge assistant that helps users get auth
 2. **Source Transparency** - Clear references to Quran and authentic Hadith
 3. **Contextual Relevance** - Application of teachings to modern contexts
 4. **Truth Guardrails** - Only authenticated sources, no fabrications
-
-## Live Demo
-Visit [ilmai.live](https://ilmai.live) to try the application.
+5. **Dual Domain Access** - Available on both ilmai.live and www.ilmai.live
+6. **Secure HTTPS** - Force SSL with automatic HTTP to HTTPS redirects
 
 ## Quick Start
 ### Windows
@@ -34,7 +38,11 @@ npm run status
 ```
 
 ## Manual Setup
-1. Clone the repository
+1. Clone the repository:
+```bash
+git clone https://github.com/gazzycodes/ilmAI.git
+cd ilmAI
+```
 2. Install dependencies with `npm install`
 3. Set up your environment variables in a `.env` file:
    ```
@@ -62,4 +70,4 @@ npm run status
 For detailed documentation, see [DOCUMENTATION.md](DOCUMENTATION.md).
 
 ## License
-[MIT](LICENSE) 
+[MIT](LICENSE)

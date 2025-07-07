@@ -13,8 +13,8 @@ ilmAI is an AI-powered Islamic knowledge assistant that provides authentic answe
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ilmai.git
-cd ilmai
+git clone https://github.com/gazzycodes/ilmAI.git
+cd ilmAI
 ```
 
 2. Install dependencies:
@@ -37,7 +37,11 @@ npm run dev
 5. Open your browser and navigate to `http://localhost:3000`
 
 ### Live Demo
-Visit [ilmai.live](https://ilmai.live) to try the application online.
+- **Main Domain**: [https://ilmai.live](https://ilmai.live)
+- **WWW Domain**: [https://www.ilmai.live](https://www.ilmai.live)
+- **Status**: ✅ Production Ready with SSL/HTTPS
+- **SSL Certificate**: Let's Encrypt (Auto-renewal enabled)
+- **Security**: Force HTTPS with automatic HTTP redirects
 
 ## Project Structure
 - `/src` - Application source code
@@ -220,6 +224,47 @@ The search functionality is implemented in `src/utils/dataService.js`. You can e
 - **Topic Explorer**: Browse Islamic topics by category
 - **Voice Interface**: Ask questions using voice input
 - **Personalization**: Save favorite responses and queries
+
+## Production Deployment
+
+### Infrastructure
+- **Server**: Ubuntu 22.04 VPS (45.58.127.18)
+- **Domains**: ilmai.live, www.ilmai.live
+- **DNS**: Cloudflare DNS management
+- **SSL**: Let's Encrypt certificates with auto-renewal
+- **Web Server**: Nginx reverse proxy with SSL termination
+- **Containerization**: Docker with Docker Compose
+- **Database**: MongoDB 7.0.21
+
+### Deployment Architecture
+```
+Internet → Cloudflare DNS → VPS Server (45.58.127.18)
+                                ↓
+                           Nginx (SSL Termination)
+                                ↓
+                           Docker Container (ilmAI App)
+                                ↓
+                           MongoDB Database
+```
+
+### SSL Configuration
+- **Certificate Authority**: Let's Encrypt
+- **Domains Covered**: ilmai.live, www.ilmai.live
+- **Auto-renewal**: Enabled via Certbot
+- **Security Headers**: HSTS, XSS Protection, Content Security Policy
+- **HTTP to HTTPS**: Automatic redirects enforced
+
+### CI/CD Pipeline
+- **Repository**: https://github.com/gazzycodes/ilmAI
+- **Trigger**: Push to main branch
+- **Deployment**: Automated via GitHub Actions
+- **Process**: Build → Test → Deploy → Health Check
+
+### Monitoring & Health Checks
+- **Health Endpoint**: `/api/health`
+- **Container Health**: Docker health checks every 30s
+- **SSL Monitoring**: Certificate expiry tracking
+- **Uptime**: 24/7 monitoring
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
