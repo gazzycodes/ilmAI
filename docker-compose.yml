@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  ilmai-app:
+    build: .
+    container_name: ilmai-app
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - LOG_LEVEL=2
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data:ro  # Mount data directory as read-only
+    networks:
+      - ilmai-network
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000/api/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) })"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  ilmai-network:
+    driver: bridge
+
+# Optional: Add logging configuration
+logging:
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"

@@ -1,0 +1,124 @@
+{
+  "verses": [
+    {
+      "surah": 1,
+      "ayah": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "translation": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+      "surah_name": "Al-Fatihah",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 1,
+      "ayah": 2,
+      "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "translation": "All praise is due to Allah, Lord of the worlds.",
+      "surah_name": "Al-Fatihah",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 2,
+      "ayah": 255,
+      "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+      "translation": "Allah - there is no deity except Him, the Ever-Living, the Sustainer of [all] existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
+      "surah_name": "Al-Baqarah",
+      "revelation_type": "Medinan"
+    },
+    {
+      "surah": 112,
+      "ayah": 1,
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "translation": "Say, \"He is Allah, [who is] One,\"",
+      "surah_name": "Al-Ikhlas",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 112,
+      "ayah": 2,
+      "arabic": "اللَّهُ الصَّمَدُ",
+      "translation": "Allah, the Eternal Refuge.",
+      "surah_name": "Al-Ikhlas",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 112,
+      "ayah": 3,
+      "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "translation": "He neither begets nor is born,",
+      "surah_name": "Al-Ikhlas",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 112,
+      "ayah": 4,
+      "arabic": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+      "translation": "Nor is there to Him any equivalent.\"",
+      "surah_name": "Al-Ikhlas",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 2,
+      "ayah": 185,
+      "arabic": "شَهْرُ رَمَضَانَ الَّذِي أُنزِلَ فِيهِ الْقُرْآنُ هُدًى لِّلنَّاسِ وَبَيِّنَاتٍ مِّنَ الْهُدَىٰ وَالْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ اللَّهُ بِكُمُ الْيُسْرَ وَلَا يُرِيدُ بِكُمُ الْعُسْرَ وَلِتُكْمِلُوا الْعِدَّةَ وَلِتُكَبِّرُوا اللَّهَ عَلَىٰ مَا هَدَاكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "translation": "The month of Ramadan is that in which was revealed the Quran, a guidance for the people and clear proofs of guidance and criterion. So whoever sights the month, let him fast it; and whoever is ill or on a journey - then an equal number of other days. Allah intends for you ease and does not intend for you hardship and wants for you to complete the period and to glorify Allah for that to which He has guided you; and perhaps you will be grateful.",
+      "surah_name": "Al-Baqarah",
+      "revelation_type": "Medinan"
+    },
+    {
+      "surah": 17,
+      "ayah": 32,
+      "arabic": "وَلَا تَقْرَبُوا الزِّنَا ۖ إِنَّهُ كَانَ فَاحِشَةً وَسَاءَ سَبِيلًا",
+      "translation": "And do not approach unlawful sexual intercourse. Indeed, it is ever an immorality and is evil as a way.",
+      "surah_name": "Al-Isra",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 49,
+      "ayah": 13,
+      "arabic": "يَا أَيُّهَا النَّاسُ إِنَّا خَلَقْنَاكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا ۚ إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ ۚ إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ",
+      "translation": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you. Indeed, Allah is Knowing and Acquainted.",
+      "surah_name": "Al-Hujurat",
+      "revelation_type": "Medinan"
+    },
+    {
+      "surah": 2,
+      "ayah": 275,
+      "arabic": "الَّذِينَ يَأْكُلُونَ الرِّبَا لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ الَّذِي يَتَخَبَّطُهُ الشَّيْطَانُ مِنَ الْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوا إِنَّمَا الْبَيْعُ مِثْلُ الرِّبَا ۗ وَأَحَلَّ اللَّهُ الْبَيْعَ وَحَرَّمَ الرِّبَا ۚ فَمَن جَاءَهُ مَوْعِظَةٌ مِّن رَّبِّهِ فَانتَهَىٰ فَلَهُ مَا سَلَفَ وَأَمْرُهُ إِلَى اللَّهِ ۖ وَمَنْ عَادَ فَأُولَٰئِكَ أَصْحَابُ النَّارِ ۖ هُمْ فِيهَا خَالِدُونَ",
+      "translation": "Those who consume interest cannot stand [on the Day of Resurrection] except as one stands who is being beaten by Satan into insanity. That is because they say, \"Trade is [just] like interest.\" But Allah has permitted trade and has forbidden interest. So whoever has received an admonition from his Lord and desists may have what is past, and his affair rests with Allah. But whoever returns to [dealing in interest or usury] - those are the companions of the Fire; they will abide eternally therein.",
+      "surah_name": "Al-Baqarah",
+      "revelation_type": "Medinan"
+    },
+    {
+      "surah": 31,
+      "ayah": 18,
+      "arabic": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا ۖ إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "translation": "And do not turn your cheek [in contempt] toward people and do not walk through the earth exultantly. Indeed, Allah does not like everyone self-deluded and boastful.",
+      "surah_name": "Luqman",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 2,
+      "ayah": 43,
+      "arabic": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
+      "translation": "And establish prayer and give zakah and bow with those who bow [in worship and obedience].",
+      "surah_name": "Al-Baqarah",
+      "revelation_type": "Medinan"
+    },
+    {
+      "surah": 29,
+      "ayah": 45,
+      "arabic": "اتْلُ مَا أُوحِيَ إِلَيْكَ مِنَ الْكِتَابِ وَأَقِمِ الصَّلَاةَ ۖ إِنَّ الصَّلَاةَ تَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ ۗ وَلَذِكْرُ اللَّهِ أَكْبَرُ ۗ وَاللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+      "translation": "Recite, [O Muhammad], what has been revealed to you of the Book and establish prayer. Indeed, prayer prohibits immorality and wrongdoing, and the remembrance of Allah is greater. And Allah knows that which you do.",
+      "surah_name": "Al-Ankabut",
+      "revelation_type": "Meccan"
+    },
+    {
+      "surah": 20,
+      "ayah": 14,
+      "arabic": "إِنَّنِي أَنَا اللَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلَاةَ لِذِكْرِي",
+      "translation": "Indeed, I am Allah. There is no deity except Me, so worship Me and establish prayer for My remembrance.",
+      "surah_name": "Ta-Ha",
+      "revelation_type": "Meccan"
+    }
+  ]
+} 

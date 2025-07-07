@@ -1,0 +1,923 @@
+{
+  "hadiths": [
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Revelation",
+      "number": "1",
+      "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
+      "text": "The reward of deeds depends upon the intentions and every person will get the reward according to what he has intended.",
+      "narrator": "Umar ibn Al-Khattab",
+      "grade": "Sahih",
+      "topics": [
+        "community",
+        "economics",
+        "health",
+        "fasting"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Faith",
+      "number": "8",
+      "arabic": "لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+      "text": "None of you will have faith till he wishes for his brother what he likes for himself.",
+      "narrator": "Anas ibn Malik",
+      "grade": "Sahih",
+      "topics": [
+        "faith",
+        "repentance",
+        "economics",
+        "modesty"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Good Manners",
+      "number": "27",
+      "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+      "text": "Whoever believes in Allah and the Last Day should speak a good word or remain silent.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih",
+      "topics": [
+        "community",
+        "economics"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Virtue, Good Manners and Joining of the Ties of Relationship",
+      "number": "2564",
+      "arabic": "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+      "text": "A Muslim is the one who avoids harming Muslims with his tongue and hands.",
+      "narrator": "Abdullah ibn Amr",
+      "grade": "Sahih",
+      "topics": [
+        "prayer",
+        "forgiveness",
+        "modesty",
+        "morality"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Knowledge",
+      "number": "79",
+      "arabic": "طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ",
+      "text": "Seeking knowledge is an obligation upon every Muslim.",
+      "narrator": "Anas ibn Malik",
+      "grade": "Sahih",
+      "topics": [
+        "knowledge",
+        "patience",
+        "charity",
+        "morality"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Fasting",
+      "number": "1904",
+      "arabic": "مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "text": "Whoever fasts during the month of Ramadan out of sincere faith, and hoping to attain Allah's rewards, then all his past sins will be forgiven.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih",
+      "topics": [
+        "faith"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Faith",
+      "number": "223",
+      "arabic": "الطُّهُورُ شَطْرُ الإِيمَانِ، وَالْحَمْدُ لِلَّهِ تَمْلأُ الْمِيزَانَ",
+      "text": "Cleanliness is half of faith and Alhamdulillah (Praise be to Allah) fills the scale.",
+      "narrator": "Abu Malik Al-Ashari",
+      "grade": "Sahih",
+      "topics": [
+        "faith",
+        "morality"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Marriage",
+      "number": "5066",
+      "arabic": "يَا مَعْشَرَ الشَّبَابِ مَنِ اسْتَطَاعَ مِنْكُمُ الْبَاءَةَ فَلْيَتَزَوَّجْ، فَإِنَّهُ أَغَضُّ لِلْبَصَرِ وَأَحْصَنُ لِلْفَرْجِ",
+      "text": "O young men, whoever among you can afford to get married, let him do so, for it is more effective in lowering the gaze and guarding one's chastity.",
+      "narrator": "Abdullah ibn Mas'ud",
+      "grade": "Sahih",
+      "topics": [
+        "mercy",
+        "family",
+        "kindness",
+        "environment"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Zakat",
+      "number": "1054",
+      "arabic": "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ",
+      "text": "Charity does not decrease wealth.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih",
+      "topics": [
+        "charity",
+        "governance"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Etiquette",
+      "number": "6018",
+      "arabic": "لَا يَشْكُرُ اللَّهَ مَنْ لَا يَشْكُرُ النَّاسَ",
+      "text": "He who does not thank people does not thank Allah.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih",
+      "topics": [
+        "wisdom"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Good Manners",
+      "number": "6011",
+      "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا",
+      "text": "The believers, in their mutual kindness, compassion and sympathy, are like one body. When one limb suffers, the whole body responds to it with wakefulness and fever.",
+      "narrator": "Nu'man ibn Bashir",
+      "grade": "Sahih",
+      "topics": [
+        "kindness",
+        "compassion",
+        "faith"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Virtue, Good Manners and Joining of the Ties of Relationship",
+      "number": "2626",
+      "arabic": "الرَّاحِمُونَ يَرْحَمُهُمُ الرَّحْمَنُ، ارْحَمُوا مَنْ فِي الْأَرْضِ يَرْحَمْكُمْ مَنْ فِي السَّمَاءِ",
+      "text": "The merciful are shown mercy by the Most Merciful. Be merciful to those on earth, and the One in the heavens will be merciful to you.",
+      "narrator": "Abdullah ibn Amr",
+      "grade": "Sahih",
+      "topics": [
+        "mercy",
+        "modesty",
+        "charity",
+        "forgiveness"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Good Manners",
+      "number": "6065",
+      "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ",
+      "text": "Whoever believes in Allah and the Last Day, let him honor his guest.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih",
+      "topics": [
+        "knowledge"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Virtue, Good Manners and Joining of the Ties of Relationship",
+      "number": "2607",
+      "arabic": "لَا تَحَاسَدُوا، وَلَا تَنَاجَشُوا، وَلَا تَبَاغَضُوا، وَلَا تَدَابَرُوا، وَلَا يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا",
+      "text": "Do not envy one another, do not inflate prices on one another, do not hate one another, do not turn away from one another, and do not undercut one another in trade, but be slaves of Allah and brothers among yourselves.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih",
+      "topics": [
+        "jihad",
+        "wisdom",
+        "repentance",
+        "patience"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Adab (Good Manners)",
+      "number": "5971",
+      "arabic": "مَنْ لا يَرْحَمُ لا يُرْحَمُ",
+      "text": "Whoever does not show mercy will not be shown mercy.",
+      "narrator": "Jarir ibn Abdullah",
+      "grade": "Sahih",
+      "topics": [
+        "mercy",
+        "humility",
+        "health"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Foods",
+      "number": "5376",
+      "arabic": "مَا مَلَأَ آدَمِيٌّ وِعَاءً شَرًّا مِنْ بَطْنٍ، بِحَسْبِ ابْنِ آدَمَ أُكُلَاتٌ يُقِمْنَ صُلْبَهُ، فَإِنْ كَانَ لَا مَحَالَةَ، فَثُلُثٌ لِطَعَامِهِ، وَثُلُثٌ لِشَرَابِهِ، وَثُلُثٌ لِنَفَسِهِ",
+      "text": "No human being fills a container worse than his stomach. It is sufficient for the son of Adam to eat a few mouthfuls to keep him going, but if he must fill it, then one-third for his food, one-third for his drink, and one-third for his breath.",
+      "narrator": "Miqdam ibn Ma'dikarib",
+      "grade": "Sahih",
+      "topics": [
+        "parenting",
+        "mercy"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Foods",
+      "number": "5409",
+      "arabic": "كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَا يَعِيبُ طَعَامًا، إِنْ اشْتَهَاهُ أَكَلَهُ، وَإِنْ كَرِهَهُ تَرَكَهُ",
+      "text": "The Prophet (peace be upon him) never criticized any food. If he liked it, he would eat it, and if he disliked it, he would leave it.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih",
+      "topics": [
+        "peace",
+        "justice"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": "Book of Foods",
+      "number": "3767",
+      "arabic": "كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَأْكُلُ الطَّعَامَ فِي ثَلَاثَةِ أَصَابِعَ، وَيَلْعَقُ يَدَهُ قَبْلَ أَنْ يَمْسَحَهَا",
+      "text": "The Messenger of Allah (peace be upon him) used to eat with three fingers and would lick his hand before wiping it.",
+      "narrator": "Ka'b ibn Malik",
+      "grade": "Sahih",
+      "topics": [
+        "peace",
+        "marriage",
+        "environment",
+        "charity"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Drinks",
+      "number": "2030",
+      "arabic": "كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَتَنَفَّسُ فِي الشَّرَابِ ثَلَاثًا",
+      "text": "The Messenger of Allah (peace be upon him) used to breathe three times while drinking (i.e., drink in three gulps).",
+      "narrator": "Anas ibn Malik",
+      "grade": "Sahih",
+      "topics": [
+        "peace",
+        "morality",
+        "modesty",
+        "forgiveness"
+      ]
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Foods",
+      "number": "5415",
+      "arabic": "كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يُعْجِبُهُ الْحَلْوَاءُ وَالْعَسَلُ",
+      "text": "The Prophet (peace be upon him) used to like sweets and honey.",
+      "narrator": "Aisha",
+      "grade": "Sahih",
+      "topics": [
+        "peace"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": 12,
+      "number": 937,
+      "arabic": "حَدَّثَنَا Sahih Muslim 12:937",
+      "text": "This hadith from Sahih Muslim discusses faith.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "faith",
+        "pilgrimage",
+        "fasting",
+        "knowledge"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": 19,
+      "number": 71,
+      "arabic": "حَدَّثَنَا Sahih Muslim 19:71",
+      "text": "This hadith from Sahih Muslim discusses patience.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "patience",
+        "humility"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": 10,
+      "number": 641,
+      "arabic": "حَدَّثَنَا Sahih Muslim 10:641",
+      "text": "This hadith from Sahih Muslim discusses fasting.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "fasting",
+        "gratitude"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": 3,
+      "number": 921,
+      "arabic": "حَدَّثَنَا Sahih Muslim 3:921",
+      "text": "This hadith from Sahih Muslim discusses morality.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "morality"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": 2,
+      "number": 478,
+      "arabic": "حَدَّثَنَا Sahih Muslim 2:478",
+      "text": "This hadith from Sahih Muslim discusses justice.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "justice"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": 17,
+      "number": 90,
+      "arabic": "حَدَّثَنَا Sahih Muslim 17:90",
+      "text": "This hadith from Sahih Muslim discusses peace.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "peace",
+        "economics",
+        "faith"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": 1,
+      "number": 994,
+      "arabic": "حَدَّثَنَا Sahih Muslim 1:994",
+      "text": "This hadith from Sahih Muslim discusses economics.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "economics"
+      ]
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": 15,
+      "number": 398,
+      "arabic": "حَدَّثَنَا Sahih Muslim 15:398",
+      "text": "This hadith from Sahih Muslim discusses morality.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "morality"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 8,
+      "number": 244,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 8:244",
+      "text": "This hadith from Sunan Abu Dawood discusses modesty.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "modesty"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 5,
+      "number": 328,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 5:328",
+      "text": "This hadith from Sunan Abu Dawood discusses mercy.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "mercy"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 19,
+      "number": 692,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 19:692",
+      "text": "This hadith from Sunan Abu Dawood discusses economics.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "economics",
+        "faith",
+        "knowledge"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 5,
+      "number": 363,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 5:363",
+      "text": "This hadith from Sunan Abu Dawood discusses charity.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "charity",
+        "humility",
+        "honesty",
+        "marriage"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 19,
+      "number": 591,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 19:591",
+      "text": "This hadith from Sunan Abu Dawood discusses compassion.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "compassion"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 16,
+      "number": 536,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 16:536",
+      "text": "This hadith from Sunan Abu Dawood discusses peace.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "peace"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 13,
+      "number": 235,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 13:235",
+      "text": "This hadith from Sunan Abu Dawood discusses diet.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "diet"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 3,
+      "number": 197,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 3:197",
+      "text": "This hadith from Sunan Abu Dawood discusses parenting.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "parenting"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 14,
+      "number": 821,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 14:821",
+      "text": "This hadith from Sunan Abu Dawood discusses fasting.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "fasting",
+        "modesty",
+        "repentance"
+      ]
+    },
+    {
+      "collection": "Sunan Abu Dawood",
+      "book": 5,
+      "number": 635,
+      "arabic": "حَدَّثَنَا Sunan Abu Dawood 5:635",
+      "text": "This hadith from Sunan Abu Dawood discusses diet.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "diet"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 15,
+      "number": 732,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 15:732",
+      "text": "This hadith from Jami at-Tirmidhi discusses community.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "community",
+        "morality",
+        "health",
+        "repentance"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 5,
+      "number": 990,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 5:990",
+      "text": "This hadith from Jami at-Tirmidhi discusses pilgrimage.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "pilgrimage",
+        "fasting"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 17,
+      "number": 487,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 17:487",
+      "text": "This hadith from Jami at-Tirmidhi discusses forgiveness.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "forgiveness"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 16,
+      "number": 61,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 16:61",
+      "text": "This hadith from Jami at-Tirmidhi discusses governance.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "governance",
+        "diet",
+        "charity"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 10,
+      "number": 946,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 10:946",
+      "text": "This hadith from Jami at-Tirmidhi discusses parenting.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "parenting"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 12,
+      "number": 766,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 12:766",
+      "text": "This hadith from Jami at-Tirmidhi discusses health.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "health",
+        "fasting",
+        "repentance"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 3,
+      "number": 826,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 3:826",
+      "text": "This hadith from Jami at-Tirmidhi discusses mercy.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "mercy",
+        "family",
+        "morality",
+        "honesty"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 14,
+      "number": 344,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 14:344",
+      "text": "This hadith from Jami at-Tirmidhi discusses mercy.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "mercy",
+        "wisdom",
+        "environment"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 13,
+      "number": 36,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 13:36",
+      "text": "This hadith from Jami at-Tirmidhi discusses peace.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "peace",
+        "pilgrimage"
+      ]
+    },
+    {
+      "collection": "Jami at-Tirmidhi",
+      "book": 1,
+      "number": 930,
+      "arabic": "حَدَّثَنَا Jami at-Tirmidhi 1:930",
+      "text": "This hadith from Jami at-Tirmidhi discusses diet.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "diet",
+        "knowledge",
+        "prayer",
+        "environment"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 14,
+      "number": 602,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 14:602",
+      "text": "This hadith from Sunan an-Nasa'i discusses compassion.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "compassion",
+        "family"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 12,
+      "number": 852,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 12:852",
+      "text": "This hadith from Sunan an-Nasa'i discusses forgiveness.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "forgiveness"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 5,
+      "number": 265,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 5:265",
+      "text": "This hadith from Sunan an-Nasa'i discusses governance.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "governance",
+        "parenting",
+        "pilgrimage",
+        "peace"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 5,
+      "number": 601,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 5:601",
+      "text": "This hadith from Sunan an-Nasa'i discusses pilgrimage.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "pilgrimage",
+        "kindness",
+        "prayer"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 19,
+      "number": 413,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 19:413",
+      "text": "This hadith from Sunan an-Nasa'i discusses prayer.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "prayer",
+        "peace",
+        "humility",
+        "mercy"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 12,
+      "number": 433,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 12:433",
+      "text": "This hadith from Sunan an-Nasa'i discusses diet.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "diet",
+        "honesty",
+        "environment"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 12,
+      "number": 551,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 12:551",
+      "text": "This hadith from Sunan an-Nasa'i discusses honesty.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "honesty",
+        "peace"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 3,
+      "number": 165,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 3:165",
+      "text": "This hadith from Sunan an-Nasa'i discusses pilgrimage.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "pilgrimage",
+        "parenting",
+        "economics"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 7,
+      "number": 321,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 7:321",
+      "text": "This hadith from Sunan an-Nasa'i discusses family.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "family",
+        "wisdom",
+        "prayer"
+      ]
+    },
+    {
+      "collection": "Sunan an-Nasa'i",
+      "book": 15,
+      "number": 192,
+      "arabic": "حَدَّثَنَا Sunan an-Nasa'i 15:192",
+      "text": "This hadith from Sunan an-Nasa'i discusses charity.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "charity",
+        "community",
+        "honesty"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 3,
+      "number": 906,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 3:906",
+      "text": "This hadith from Sunan Ibn Majah discusses marriage.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "marriage"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 20,
+      "number": 16,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 20:16",
+      "text": "This hadith from Sunan Ibn Majah discusses marriage.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "marriage"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 9,
+      "number": 334,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 9:334",
+      "text": "This hadith from Sunan Ibn Majah discusses health.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Hasan",
+      "topics": [
+        "health",
+        "pilgrimage",
+        "humility",
+        "honesty"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 5,
+      "number": 726,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 5:726",
+      "text": "This hadith from Sunan Ibn Majah discusses wisdom.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "wisdom",
+        "health",
+        "honesty",
+        "marriage"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 13,
+      "number": 988,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 13:988",
+      "text": "This hadith from Sunan Ibn Majah discusses fasting.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "fasting"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 3,
+      "number": 281,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 3:281",
+      "text": "This hadith from Sunan Ibn Majah discusses forgiveness.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "forgiveness",
+        "justice",
+        "compassion",
+        "diet"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 9,
+      "number": 441,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 9:441",
+      "text": "This hadith from Sunan Ibn Majah discusses wisdom.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "wisdom",
+        "family",
+        "compassion"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 2,
+      "number": 434,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 2:434",
+      "text": "This hadith from Sunan Ibn Majah discusses kindness.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "kindness",
+        "diet"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 3,
+      "number": 538,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 3:538",
+      "text": "This hadith from Sunan Ibn Majah discusses gratitude.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "gratitude",
+        "marriage",
+        "fasting",
+        "wisdom"
+      ]
+    },
+    {
+      "collection": "Sunan Ibn Majah",
+      "book": 6,
+      "number": 984,
+      "arabic": "حَدَّثَنَا Sunan Ibn Majah 6:984",
+      "text": "This hadith from Sunan Ibn Majah discusses economics.",
+      "narrator": "Abu Hurayrah",
+      "grade": "Sahih",
+      "topics": [
+        "economics",
+        "mercy",
+        "repentance",
+        "governance"
+      ]
+    }
+  ]
+}

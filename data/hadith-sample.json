@@ -1,0 +1,94 @@
+{
+  "hadiths": [
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Revelation",
+      "number": "1",
+      "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
+      "text": "The reward of deeds depends upon the intentions and every person will get the reward according to what he has intended.",
+      "narrator": "Umar ibn Al-Khattab",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Faith",
+      "number": "8",
+      "arabic": "لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+      "text": "None of you will have faith till he wishes for his brother what he likes for himself.",
+      "narrator": "Anas ibn Malik",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Good Manners",
+      "number": "27",
+      "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+      "text": "Whoever believes in Allah and the Last Day should speak a good word or remain silent.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Virtue, Good Manners and Joining of the Ties of Relationship",
+      "number": "2564",
+      "arabic": "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+      "text": "A Muslim is the one who avoids harming Muslims with his tongue and hands.",
+      "narrator": "Abdullah ibn Amr",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Knowledge",
+      "number": "79",
+      "arabic": "طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ",
+      "text": "Seeking knowledge is an obligation upon every Muslim.",
+      "narrator": "Anas ibn Malik",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Fasting",
+      "number": "1904",
+      "arabic": "مَنْ صَامَ رَمَضَانَ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ",
+      "text": "Whoever fasts during the month of Ramadan out of sincere faith, and hoping to attain Allah's rewards, then all his past sins will be forgiven.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Faith",
+      "number": "223",
+      "arabic": "الطُّهُورُ شَطْرُ الإِيمَانِ، وَالْحَمْدُ لِلَّهِ تَمْلأُ الْمِيزَانَ",
+      "text": "Cleanliness is half of faith and Alhamdulillah (Praise be to Allah) fills the scale.",
+      "narrator": "Abu Malik Al-Ashari",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Marriage",
+      "number": "5066",
+      "arabic": "يَا مَعْشَرَ الشَّبَابِ مَنِ اسْتَطَاعَ مِنْكُمُ الْبَاءَةَ فَلْيَتَزَوَّجْ، فَإِنَّهُ أَغَضُّ لِلْبَصَرِ وَأَحْصَنُ لِلْفَرْجِ",
+      "text": "O young men, whoever among you can afford to get married, let him do so, for it is more effective in lowering the gaze and guarding one's chastity.",
+      "narrator": "Abdullah ibn Mas'ud",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Muslim",
+      "book": "Book of Zakat",
+      "number": "1054",
+      "arabic": "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ",
+      "text": "Charity does not decrease wealth.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih"
+    },
+    {
+      "collection": "Sahih Bukhari",
+      "book": "Book of Etiquette",
+      "number": "6018",
+      "arabic": "لَا يَشْكُرُ اللَّهَ مَنْ لَا يَشْكُرُ النَّاسَ",
+      "text": "He who does not thank people does not thank Allah.",
+      "narrator": "Abu Hurairah",
+      "grade": "Sahih"
+    }
+  ]
+} 

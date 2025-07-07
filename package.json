@@ -1,0 +1,26 @@
+{
+  "name": "llmai",
+  "version": "1.0.0",
+  "description": "An AI-powered Islamic knowledge assistant that provides authentic answers based on verified Quranic verses, Hadith (Sahih), and legal opinions from the Four Imams.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "import:quran": "node scripts/import-data.js --type=quran",
+    "import:hadith": "node scripts/import-data.js --type=hadith",
+    "status": "node scripts/check-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

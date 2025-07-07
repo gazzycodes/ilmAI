@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ilmAI - Islamic Knowledge Assistant Powered by AI</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="ilmAI - Islamic Knowledge Assistant Powered by AI">
+  <meta name="description" content="Ask questions about Islamic teachings and get authentic answers with verified sources from the Quran and authentic Hadith. ilmAI provides reliable Islamic knowledge with clear references.">
+  <meta name="keywords" content="Islamic AI, Quran search, Hadith search, Islamic knowledge, Islamic assistant, ilmAI, Islamic questions, Quran verses, authentic Hadith">
+  <meta name="author" content="Ghazanfar Uruj and Uzair Anwer">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ilmai.live/">
+  <meta property="og:title" content="ilmAI - Islamic Knowledge Assistant">
+  <meta property="og:description" content="Ask questions about Islamic teachings and get authentic answers with verified sources from the Quran and authentic Hadith.">
+  <meta property="og:image" content="https://ilmai.live/img/ilmai-social.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ilmai.live/">
+  <meta property="twitter:title" content="ilmAI - Islamic Knowledge Assistant">
+  <meta property="twitter:description" content="Ask questions about Islamic teachings and get authentic answers with verified sources from the Quran and authentic Hadith.">
+  <meta property="twitter:image" content="https://ilmai.live/img/ilmai-social.png">
+  
+  <!-- Canonical URL -->
+  <meta rel="canonical" href="https://ilmai.live/">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/futuristic.css">
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ilmAI",
+      "url": "https://ilmai.live",
+      "description": "An AI-powered Islamic knowledge assistant that provides authentic answers based on verified Quranic verses and authentic Hadith.",
+      "applicationCategory": "EducationalApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Ghazanfar Uruj and Uzair Anwer"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="particles-container" id="particles-container"></div>
+  
+  <header class="header">
+    <a href="/" class="logo">
+      <div class="logo-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4.882 1.731a.482.482 0 0 0 0 .964.482.482 0 0 0 0-.964M6.14 1.21c-.456.165-.648.399-.652.9-.004.498.181.733.643.9.231.085.412.134.412.459 0 .325-.181.374-.412.459-.462.168-.647.402-.643.9.004.501.196.735.652.9.455.164.86.094 1.402-.232.552-.327.852-.778.869-1.1.012-.262-.124-.517-.364-.788.248-.27.376-.526.364-.788-.017-.322-.317-.773-.869-1.1-.542-.326-.947-.396-1.402-.232M7.5 5.25C7.5 6.22 8.97 6.22 8.97 5.25s-1.47-.967-1.47 0M5.5 5.25c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M7.5 7.25c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M5.5 7.25c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M7.22 9.28c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M5.5 9.25c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M2.5 11.25c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M9.5 11.25c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M7.5 11.25c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M4.5 11.25c0 .967 1.47.967 1.47 0s-1.47-.967-1.47 0M11.182 1.731a.482.482 0 0 1 0 .964.482.482 0 0 1 0-.964"/>
+        </svg>
+      </div>
+      <span>ilmAI</span>
+      <span class="beta-badge">BETA</span>
+    </a>
+    <nav class="nav">
+      <a href="/" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="theme-icon-dark" viewBox="0 0 16 16">
+          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="theme-icon-light" viewBox="0 0 16 16">
+          <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="masthead">
+        <span class="masthead-credits">Created by Ghazanfar Uruj and Uzair Anwer</span>
+      </div>
+      <section class="search-container fade-in">
+        <h1 class="search-title">Islamic Knowledge Assistant</h1>
+        <p class="search-subtitle">Ask questions about Islamic teachings, Quranic verses, or Hadith and get authentic answers with verified sources.</p>
+        
+        <div class="search-box">
+          <textarea id="query-input" class="search-input" placeholder="Ask a question about Islam..." aria-label="Ask a question" rows="1"></textarea>
+          <button id="search-button" class="search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+            <span>Ask</span>
+            <span class="search-button-tooltip">Press Enter to search</span>
+          </button>
+        </div>
+      </section>
+
+      <div id="loading" class="loading" style="display: none;">
+        <div class="loading-dots">
+          <div class="loading-dot"></div>
+          <div class="loading-dot"></div>
+          <div class="loading-dot"></div>
+        </div>
+      </div>
+
+      <section id="answer-section" style="display: none;">
+        <div class="answer-container fade-in">
+          <div class="answer-header">
+            <div class="answer-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+              </svg>
+            </div>
+            <h2 class="answer-title">Answer</h2>
+          </div>
+          <div id="answer-content" class="answer-content"></div>
+          
+          <div id="answer-sources" class="answer-sources">
+            <h3 class="source-title">Sources</h3>
+            <div id="sources-list"></div>
+            <div class="source-disclaimer">
+              <p>Note: Source relevance is based on keyword matching. For best results, use specific Islamic terminology in your questions.</p>
+              <p>Coming soon: Advanced prompt enhancement and improved source matching.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="card fade-in" style="margin-top: 4rem;">
+        <h2 class="text-gradient">About ilmAI</h2>
+        <p>ilmAI is an AI-powered Islamic knowledge assistant that provides authentic answers based on verified Quranic verses and authentic Hadith.</p>
+        <p>Our mission is to create a truth-centered Islamic knowledge assistant that helps users get authentic answers to spiritual, ethical, and modern life questions — strictly based on verified sources while transparently showing references.</p>
+        
+        <div class="update-notice">
+          <h3>Beta Release</h3>
+          <p>ilmAI is currently in beta. We're continuously improving and will be rolling out new features and updates every 2 weeks.</p>
+          <p>All answers are sourced from authentic Islamic texts with clear references to help you verify the information.</p>
+        </div>
+        
+        <h3>Key Features</h3>
+        <ul>
+          <li><strong>Natural Language Understanding</strong> - Ask questions in natural language about Islamic guidance</li>
+          <li><strong>Source Transparency</strong> - Clear references to Quran and authentic Hadith</li>
+          <li><strong>Contextual Relevance</strong> - Application of teachings to modern contexts</li>
+          <li><strong>Truth Guardrails</strong> - Only authenticated sources, no fabrications</li>
+        </ul>
+
+        <h3>Roadmap</h3>
+        <ul class="roadmap-list">
+          <li><span class="roadmap-badge upcoming">Coming Soon</span> <strong>Prompt Enhancement</strong> - Automatic query refinement for better source matching</li>
+          <li><span class="roadmap-badge upcoming">Coming Soon</span> <strong>Advanced Source Filtering</strong> - Improved relevance detection</li>
+          <li><span class="roadmap-badge planned">Planned</span> <strong>Multi-language Support</strong> - Interface in multiple languages</li>
+          <li><span class="roadmap-badge planned">Planned</span> <strong>Topic Explorer</strong> - Browse Islamic topics by category</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 ilmAI - AI-Powered Quran & Hadith Assistant</p>
+    <p class="update-schedule">Updates released every 2 weeks</p>
+    <p class="website-url">Visit us at <a href="https://ilmai.live" target="_blank" rel="noopener">ilmai.live</a></p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const queryInput = document.getElementById('query-input');
+      const searchButton = document.getElementById('search-button');
+      const loadingElement = document.getElementById('loading');
+      const answerSection = document.getElementById('answer-section');
+      const answerContent = document.getElementById('answer-content');
+      const sourcesList = document.getElementById('sources-list');
+      const themeToggle = document.getElementById('theme-toggle');
+      const particlesContainer = document.getElementById('particles-container');
+      
+      // Auto-resize textarea as user types
+      queryInput.addEventListener('input', function() {
+        // Reset height to auto to get the correct scrollHeight
+        this.style.height = 'auto';
+        // Set new height based on scrollHeight (with a max of 150px)
+        const newHeight = Math.min(this.scrollHeight, 150);
+        this.style.height = newHeight + 'px';
+        
+        // Show character count if approaching limit
+        const maxLength = 500;
+        const currentLength = this.value.length;
+        
+        if (currentLength > maxLength * 0.8) {
+          this.setAttribute('maxlength', maxLength);
+          const remainingChars = maxLength - currentLength;
+          searchButton.querySelector('.search-button-tooltip').textContent = 
+            `${remainingChars} characters left`;
+          searchButton.classList.add('show-tooltip');
+        } else {
+          searchButton.classList.remove('show-tooltip');
+          searchButton.querySelector('.search-button-tooltip').textContent = 
+            'Press Enter to search';
+        }
+      });
+      
+      // Initialize height on page load
+      setTimeout(() => {
+        queryInput.style.height = 'auto';
+        queryInput.style.height = (queryInput.scrollHeight) + 'px';
+      }, 100);
+      
+      // Add focus effect
+      queryInput.addEventListener('focus', function() {
+        searchButton.classList.add('input-focused');
+      });
+      
+      queryInput.addEventListener('blur', function() {
+        searchButton.classList.remove('input-focused');
+      });
+      
+      // Create particles
+      function createParticles() {
+        particlesContainer.innerHTML = '';
+        const numberOfParticles = Math.floor(window.innerWidth / 10);
+        
+        for (let i = 0; i < numberOfParticles; i++) {
+          const particle = document.createElement('div');
+          particle.className = 'particle';
+          
+          // Random position
+          const posX = Math.random() * window.innerWidth;
+          const posY = Math.random() * window.innerHeight;
+          particle.style.left = `${posX}px`;
+          particle.style.top = `${posY}px`;
+          
+          // Random size
+          const size = Math.random() * 3 + 1;
+          particle.style.width = `${size}px`;
+          particle.style.height = `${size}px`;
+          
+          // Random animation duration
+          const duration = Math.random() * 20 + 10;
+          particle.style.animationDuration = `${duration}s`;
+          
+          // Random delay
+          const delay = Math.random() * 10;
+          particle.style.animationDelay = `${delay}s`;
+          
+          particlesContainer.appendChild(particle);
+        }
+      }
+      
+      // Create particles on load
+      createParticles();
+      
+      // Recreate particles on window resize
+      window.addEventListener('resize', createParticles);
+      
+      // Theme toggle functionality
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light') {
+        document.documentElement.classList.add('light-theme');
+      }
+      
+      themeToggle.addEventListener('click', () => {
+        document.documentElement.classList.toggle('light-theme');
+        const currentTheme = document.documentElement.classList.contains('light-theme') ? 'light' : 'dark';
+        localStorage.setItem('theme', currentTheme);
+      });
+
+      // Function to handle the search
+      async function handleSearch() {
+        const query = queryInput.value.trim();
+        
+        if (!query) {
+          // Visual feedback if empty
+          queryInput.classList.add('shake');
+          setTimeout(() => queryInput.classList.remove('shake'), 600);
+          return;
+        }
+        
+        // Show loading animation
+        loadingElement.style.display = 'flex';
+        answerSection.style.display = 'none';
+        
+        // Reset animation class
+        const answerContainer = document.querySelector('.answer-container');
+        if (answerContainer) {
+          answerContainer.classList.remove('show');
+        }
+        
+        // Disable input and button while loading
+        queryInput.disabled = true;
+        searchButton.disabled = true;
+        searchButton.classList.add('loading');
+        
+        try {
+          const response = await fetch('/api/query', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ query })
+          });
+          
+          const data = await response.json();
+          
+          // Hide loading animation
+          loadingElement.style.display = 'none';
+          
+          // Format the response to handle Arabic text
+          const formattedResponse = formatResponse(data.response || 'Sorry, I could not find an answer to your question.');
+          
+          // Display the answer
+          answerContent.innerHTML = formattedResponse;
+          
+          // Display sources if available and relevant content was found
+          if (data.sources && data.sources.length > 0 && data.hasRelevantContent) {
+            sourcesList.innerHTML = '';
+            data.sources.forEach(source => {
+              const sourceItem = document.createElement('div');
+              sourceItem.className = 'source-item';
+              
+              const sourceType = document.createElement('div');
+              sourceType.className = 'source-type';
+              sourceType.textContent = source.type || 'Reference';
+              sourceItem.appendChild(sourceType);
+              
+              if (source.arabic) {
+                const sourceArabic = document.createElement('div');
+                sourceArabic.className = 'arabic-text';
+                sourceArabic.textContent = source.arabic;
+                sourceItem.appendChild(sourceArabic);
+              }
+              
+              const sourceText = document.createElement('div');
+              sourceText.className = 'source-text';
+              sourceText.textContent = source.text || '';
+              sourceItem.appendChild(sourceText);
+              
+              if (source.reference) {
+                const sourceRef = document.createElement('div');
+                sourceRef.className = 'source-reference';
+                sourceRef.textContent = source.reference;
+                sourceItem.appendChild(sourceRef);
+              }
+              
+              sourcesList.appendChild(sourceItem);
+            });
+            
+            document.getElementById('answer-sources').style.display = 'block';
+          } else {
+            document.getElementById('answer-sources').style.display = 'none';
+            
+            // If no relevant content was found, show a suggestion to rephrase
+            if (!data.hasRelevantContent) {
+              const noSourcesMessage = document.createElement('div');
+              noSourcesMessage.className = 'no-sources-message';
+              noSourcesMessage.innerHTML = `
+                <p>No specific Quranic verses or Hadith were found that directly address your question.</p>
+                <p>Consider rephrasing your question to focus on Islamic teachings from the Quran or authentic Hadith.</p>
+              `;
+              answerContent.appendChild(noSourcesMessage);
+            }
+          }
+          
+          // Show the answer section with animation
+          answerSection.style.display = 'block';
+          setTimeout(() => {
+            document.querySelector('.answer-container').classList.add('show');
+          }, 100);
+          
+          // Re-enable input and button
+          queryInput.disabled = false;
+          searchButton.disabled = false;
+          searchButton.classList.remove('loading');
+        } catch (error) {
+          console.error('Error:', error);
+          loadingElement.style.display = 'none';
+          answerContent.innerHTML = 'Sorry, there was an error processing your request.';
+          document.getElementById('answer-sources').style.display = 'none';
+          answerSection.style.display = 'block';
+          
+          // Re-enable input and button
+          queryInput.disabled = false;
+          searchButton.disabled = false;
+          searchButton.classList.remove('loading');
+        }
+      }
+      
+      // Function to format the response and handle Arabic text
+      function formatResponse(text) {
+        // Split the text into paragraphs
+        const paragraphs = text.split('\n\n');
+        let formattedHtml = '';
+        
+        // Regular expression to detect Arabic text (contains Arabic characters)
+        const arabicRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]+/;
+        
+        // Regular expression to detect Arabic section headers
+        const arabicHeaderRegex = /^Arabic:/i;
+        const translationHeaderRegex = /^Translation:/i;
+        
+        // Process paragraphs in pairs (Arabic followed by translation)
+        for (let i = 0; i < paragraphs.length; i++) {
+          const paragraph = paragraphs[i].trim();
+          if (!paragraph) continue;
+          
+          // Skip headers
+          if (arabicHeaderRegex.test(paragraph) || translationHeaderRegex.test(paragraph)) {
+            continue;
+          }
+          
+          // Check if paragraph is likely an Arabic verse
+          if (arabicRegex.test(paragraph) && paragraph.length > 10) {
+            formattedHtml += `<div class="arabic-text">${paragraph}</div>`;
+            
+            // Look ahead for translation in the next paragraph
+            if (i + 1 < paragraphs.length) {
+              const nextParagraph = paragraphs[i + 1].trim();
+              
+              // Skip if next paragraph is a header
+              if (!arabicHeaderRegex.test(nextParagraph) && !translationHeaderRegex.test(nextParagraph)) {
+                // If next paragraph doesn't contain substantial Arabic text, treat as translation
+                if (!arabicRegex.test(nextParagraph) || (arabicRegex.test(nextParagraph) && nextParagraph.length < 10)) {
+                  formattedHtml += `<p class="translation-text">${nextParagraph}</p>`;
+                  i++; // Skip the next paragraph since we've processed it
+                  continue;
+                }
+              }
+            }
+          } else {
+            // Regular paragraph
+            formattedHtml += `<p>${paragraph}</p>`;
+          }
+        }
+        
+        return formattedHtml;
+      }
+      
+      // Event listeners
+      searchButton.addEventListener('click', handleSearch);
+      
+      queryInput.addEventListener('keypress', (event) => {
+        if (event.key === 'Enter') {
+          event.preventDefault(); // Prevent default to avoid newline in textarea
+          handleSearch();
+        }
+      });
+    });
+  </script>
+</body>
+</html> 
