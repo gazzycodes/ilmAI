@@ -33,6 +33,13 @@ jobs:
           --exclude=.github \
           --exclude=*.log \
           --exclude=ilmai_deploy \
+          --exclude=ilmai_deploy.pub \
+          --exclude=*.ps1 \
+          --exclude=*.bat \
+          --exclude=secure-and-push.bat \
+          --exclude=final-push.bat \
+          --exclude=push-mobile-fix.bat \
+          --exclude=push-now.bat \
           .
           
     - name: Deploy to VPS
@@ -44,16 +51,20 @@ jobs:
         port: 22
         script: |
           # Create application directory
-          mkdir -p /opt/ilmai
+          sudo mkdir -p /opt/ilmai
           cd /opt/ilmai
-          
+
           # Backup current deployment (if exists)
           if [ -d "current" ]; then
-            mv current backup-$(date +%Y%m%d-%H%M%S) || true
+            sudo mv current backup-$(date +%Y%m%d-%H%M%S) || true
           fi
-          
+
           # Create new deployment directory
-          mkdir -p current
+          sudo mkdir -p current
+          sudo chown -R $USER:$USER /opt/ilmai
+
+          # Ensure user is in docker group (for Docker commands)
+          sudo usermod -aG docker $USER || true
           
     - name: Upload deployment package
       uses: appleboy/scp-action@v0.1.7
@@ -74,11 +85,11 @@ jobs:
         port: 22
         script: |
           cd /opt/ilmai
-          
+
           # Extract deployment package
           tar -xzf deployment.tar.gz -C current/
           rm deployment.tar.gz
-          
+
           # Create environment file
           cat > current/.env << EOF
           NODE_ENV=production
@@ -86,31 +97,36 @@ jobs:
           GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
           LOG_LEVEL=2
           EOF
-          
+
           # Set proper permissions
-          chown -R www-data:www-data current/
-          chmod -R 755 current/
-          
-          # Install dependencies
+          sudo chown -R www-data:www-data current/
+          sudo chmod -R 755 current/
+
+          # Navigate to application directory
           cd current
-          npm ci --only=production
-          
-          # Restart application using Docker Compose
-          docker-compose down || true
-          docker-compose up -d --build
-          
+
+          # Stop existing containers
+          sudo docker-compose down || true
+
+          # Build and start new containers
+          sudo docker-compose up -d --build
+
           # Wait for application to start
-          sleep 10
-          
+          sleep 15
+
           # Health check
           if curl -f http://localhost:3000/api/health; then
             echo "✅ Deployment successful - Application is healthy"
-            
+
             # Clean up old backups (keep last 3)
             cd /opt/ilmai
-            ls -t backup-* 2>/dev/null | tail -n +4 | xargs rm -rf || true
+            ls -t backup-* 2>/dev/null | tail -n +4 | xargs sudo rm -rf || true
           else
             echo "❌ Deployment failed - Application health check failed"
+
+            # Try to get container logs for debugging
+            echo "=== Container Logs ==="
+            sudo docker-compose logs --tail=50 || true
             exit 1
           fi
           
