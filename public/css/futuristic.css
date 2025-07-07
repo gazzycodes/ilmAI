@@ -710,6 +710,20 @@ body {
     right: -20px;
     font-size: 0.5rem;
   }
+
+  /* Roadmap mobile fixes */
+  .roadmap-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .roadmap-badge {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    min-width: auto;
+    width: fit-content;
+  }
 }
 
 @media (max-width: 480px) {
@@ -723,6 +737,12 @@ body {
   
   .update-notice {
     padding: 1rem;
+  }
+
+  /* Roadmap extra small screen fixes */
+  .roadmap-badge {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.4rem;
   }
 }
 
